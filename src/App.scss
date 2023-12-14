@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+:root {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(0, 0, 0, 0.893);
+}
+h1{
+  color: burlywood;
+  margin: 2rem;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 2rem 1rem;
+  span {
+    color: white;
+  }
+}
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  padding: 0.3rem;
+  border: 1px solid burlywood;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+button[disabled] {
+  color: rgba(255, 217, 0, 0.592);
+  background-color: rgba(255, 255, 255, 0.524);
+}
+main {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  place-items: center;
+  text-align: center;
+  figure {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.629);
+    border-radius: 10px;
+    a {
+      list-style-type: none;
+      color: burlywood;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      height: 280px;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+  }
+}
+.sort {
+  margin: 0 2rem;
+}
