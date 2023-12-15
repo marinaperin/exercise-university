@@ -28,7 +28,7 @@ const SearchBar = ({ universities, setUniversities, isSorted }) => {
           setValue("");
         }}
       >
-        Cerca
+        Search
       </button>
       <span>You searched {count} times</span>
     </div>
